@@ -4,4 +4,4 @@ Linear model specifies a linear combination of features. The training process le
 
 ## Multiclass Classification
 
-* [Predict tags from the titles of StackOverflow posts](https://github.com/msfchen/machine_learning/tree/master/linearmodel/tagprediction)
+* [Predict tags from the titles of StackOverflow posts](https://github.com/msfchen/machine_learning/tree/master/linearmodel/tagprediction): 100 classes; classifier: OneVsRestClassifier(LogisticRegression()); bag-of-words and tf-idf features were compared; evaluation: F1-Score Macro, F1-Score Weighted, ROC-AUC
