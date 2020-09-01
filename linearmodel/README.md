@@ -4,4 +4,4 @@ Linear model specifies a linear combination of features. The training process le
 
 ## Multiclass Classification
 
-* [Predict tags from the titles of StackOverflow posts]
+* [Predict tags from the titles of StackOverflow posts](https://github.com/msfchen/machine_learning/tree/master/linearmodel/tagprediction)
