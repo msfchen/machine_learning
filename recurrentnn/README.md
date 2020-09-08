@@ -1,6 +1,6 @@
 # Recurrect Neural Networks
 
-Recurrent neural networks compute values that are fed over and over again to themselves until a prediction is made. The main advantage of RNNs is that they propagate information within sequences and the computations share most of the parameters.
+Recurrent neural networks are designed to model sequence, in which the hidden state of the previous step is an input to the current step. The same set of parameter values are applied repeatedly to every steps of the sequence.
 
 ## Language Model
 
