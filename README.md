@@ -10,9 +10,8 @@ This repository contains the machine learning projects I did in the past.
 
 ### [Regular Neural Networks](https://github.com/msfchen/machine_learning/tree/master/regularnn)
 
+### [Convolutional Neural Netwroks](https://github.com/msfchen/machine_learning/tree/master/convolutionalnn)
+
 ### [Recurrent Neural Networks](https://github.com/msfchen/machine_learning/tree/master/recurrentnn)
 
 ### [Attention Models](https://github.com/msfchen/machine_learning/tree/master/attentionmodel)
-
-### [Convolutional Neural Netwroks](https://github.com/msfchen/machine_learning/tree/master/convolutionalnn)
-
