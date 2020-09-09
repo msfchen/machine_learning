@@ -4,7 +4,7 @@ Recurrent neural networks are designed to model sequence, in which the hidden st
 
 ## Language Model
 
-* [Predict Next Character with Recurrect Neural Network](https://github.com/msfchen/machine_learning/tree/master/recurrentnn/predictnextchar): [8/13/2020, Coursera NLP Specialization]
+* [Predict Next Character with Recurrect Neural Network](https://github.com/msfchen/machine_learning/tree/master/recurrentnn/predictnextchar): 
   - convert each sentence to a list of character token_ids, ending with EOS_int.
   - a batch data generator, optionally shuffled.
   - Gated Recurrent Unit (GRU) model using Trax framework; layers: ShiftRight -> Embedding -> n_layers of GRU -> Dense -> LogSoftmax
@@ -13,7 +13,7 @@ Recurrent neural networks are designed to model sequence, in which the hidden st
 
 ## Word Tagging
 
-* [Named Entity Recognition](https://github.com/msfchen/machine_learning/tree/master/recurrentnn/ner): [8/15/2020, Coursera NLP Specialization]
+* [Named Entity Recognition](https://github.com/msfchen/machine_learning/tree/master/recurrentnn/ner): 
   - explore the pre-processed labelled data (B-, I-, O)
   - a batch data generator, optionally shuffled.
   - Long Short-Term Memory (LSTM) model using Trax framework; layers: Embedding -> LSTM -> Dense -> LogSoftmax
@@ -23,7 +23,7 @@ Recurrent neural networks are designed to model sequence, in which the hidden st
 
 A Siamese Network, also known as Twin Network, is composed of two identical networks that share the same weights while working in parallel on two different input vectors to compute similarity measures of of the corresponding output vectors.
 
-* [Predict Duplicate Questions](https://github.com/msfchen/machine_learning/tree/master/recurrentnn/predictdupquests): [8/17/2020, Coursera NLP Specialization]
+* [Predict Duplicate Questions](https://github.com/msfchen/machine_learning/tree/master/recurrentnn/predictdupquests): 
   - explore the pre-processed is_duplicate labelled question pairs
   - Only use duplicate question pairs to prepare training data so that data generator will produce batches ([q1_1, q1_2, q1_3,...], [q2_1, q2_2, q2_3, ...]) where q1_i and q2_k are duplicate if and only if i = k.
   - tokenize each question => build vocab {token : idx} => convert questions to tensors; split train/valid to 8:2.
